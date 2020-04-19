@@ -6,25 +6,27 @@
 \alias{polylabelr-package}
 \title{polylabelr: Find the Pole of Inaccessibility (Visual Center) of a Polygon}
 \description{
-A wrapper around the C++ library 
-    'polylabel' from 'Mapbox', providing an efficient routine for
-    finding the approximate pole of inaccessibility of a polygon, which
-    usually serves as an excellent candidate for labeling of a polygon.
+A wrapper around the C++ library 'polylabel' from 'Mapbox', 
+    providing an efficient routine for finding the approximate pole of 
+    inaccessibility of a polygon, which usually serves as an excellent candidate
+    for labeling of a polygon.
 }
 \seealso{
 Useful links:
 \itemize{
   \item \url{https://github.com/jolars/polylabelr}
+  \item \url{https://jolars.github.io/polylabelr}
   \item Report bugs at \url{https://github.com/jolars/polylabelr/issues}
 }
 
 }
 \author{
-\strong{Maintainer}: Johan Larsson \email{mail@larssonjohan.com}
+\strong{Maintainer}: Johan Larsson \email{johanlarsson@outlook.com} (\href{https://orcid.org/0000-0002-4029-5945}{ORCID})
 
 Other contributors:
 \itemize{
-  \item Mapbox (variant, mapbox, and geometry libraries) [copyright holder]
+  \item Kent Johnson \email{kent@kentsjohnson.com} [contributor]
+  \item Mapbox (polylabel, variant, and geometry libraries) [copyright holder]
 }
 
 }

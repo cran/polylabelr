@@ -5,16 +5,11 @@
 
 <!-- badges: start -->
 
-[![R build
-status](https://github.com/jolars/polylabelr/workflows/R-CMD-check/badge.svg)](https://github.com/jolars/polylabelr/actions)
-[![Travis build
-status](https://travis-ci.com/jolars/polylabelr.svg?branch=master)](https://travis-ci.com/jolars/polylabelr)
-[![AppVeyor build
-status](https://ci.appveyor.com/api/projects/status/github/jolars/polylabelr?branch=master&svg=true)](https://ci.appveyor.com/project/jolars/polylabelr)
-[![Coverage
-status](https://codecov.io/gh/jolars/polylabelr/branch/master/graph/badge.svg)](https://codecov.io/github/jolars/polylabelr?branch=master)
+[![R-CMD-check](https://github.com/jolars/polylabelr/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jolars/polylabelr/actions/workflows/R-CMD-check.yaml)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/polylabelr)](https://cran.r-project.org/package=polylabelr)
+[![Codecov test
+coverage](https://codecov.io/gh/jolars/polylabelr/graph/badge.svg)](https://app.codecov.io/gh/jolars/polylabelr)
 <!-- badges: end -->
 
 **polylabelr** is an R wrapper for the [polylabel
@@ -35,7 +30,7 @@ y <- c(0, 0, 1, 2, 1, 3, 2, 0)
 p <- polylabelr::poi(x, y, precision = 0.01)
 
 plot.new()
-plot.window(range(x, na.rm = TRUE), range(y, na.rm = TRUE))
+plot.window(range(x, na.rm = TRUE), range(y, na.rm = TRUE), asp = 1)
 polypath(x, y, col = "grey", border = FALSE)
 points(p)
 ```
@@ -47,7 +42,7 @@ points(p)
 ### CRAN version
 
 ``` r
-install.packages("eulerr")
+install.packages("polylabelr")
 ```
 
 ### Development version
@@ -58,12 +53,10 @@ remotes::install_github("jolars/polylabelr")
 
 ## Modifications
 
-The source code from [polylabel](https://github.com/mapbox/polylabel)
-and [geometry.hpp](https://github.com/mapbox/geometry.hpp/) has been
-modified in a few ways to compile properly with c++11 using the standard
-flags required by CRAN policies. polylabel has also been modified to
-return the distance from the chosen point to the enclosing polygon, in
-case it is of value to users.
+The source code from
+[geometry.hpp](https://github.com/mapbox/geometry.hpp/) has been
+modified slightly by removing the use of some GCC diagnostic pragmas
+that caused warnings in R CMD check.
 
 ## Versioning
 

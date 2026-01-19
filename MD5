@@ -1,7 +1,7 @@
-cab1766f121598cbb1e16241d33c8029 *DESCRIPTION
+bef0e45686f84541d43f3e0c4ab0abdf *DESCRIPTION
 1d55157bc9f6113163ce5c9401fb8d81 *LICENSE
 4c14999800ff47986ff70a4e6f17c676 *NAMESPACE
-72b117d327fc110d61ff9caa1f19f9d6 *NEWS.md
+215c76dbc863ffb072de9e07f0f55694 *NEWS.md
 87e1a9850420398dde86ffaf7583df47 *R/RcppExports.R
 40a23d6ffa1f3cfec4caa6c2fcbd6301 *R/poi.R
 bd4abc95aba7d67036dbae8ffc6e80da *R/poi_multi.R
@@ -9,7 +9,7 @@ c074ceed720f72d0ae776e57942f3ac1 *R/poi_sf.R
 bc31a4d092aca449476eef3e64cd8d79 *R/polylabelr.R
 f980e704cccdef147df1ab1d1015e498 *R/utils.R
 c339975b43a09bc465621a3f72058bc5 *README.md
-aa5e5a2cbfaea3d9b6cdbe378ac48cee *build/partial.rdb
+76e123f5dcc8dee07678412adc0a2a84 *build/partial.rdb
 940a01365c17a539442be2424ab5499b *inst/CITATION
 0d18e8c2677b3fc2e35cd8cf0862b01f *inst/COPYRIGHTS
 c09a81db692473817c5a6e4006c92710 *inst/WORDLIST
@@ -32,7 +32,7 @@ c7041693a28da05c4a8db15b8453ce3f *inst/include/mapbox/geometry_io.hpp
 eee5651549b696f513c312252e337f49 *inst/include/mapbox/optional.hpp
 b137df1f3ee6aea0447b933596dc052f *inst/include/mapbox/polylabel.hpp
 294899adcf155bd9b9250de1c3c1688d *inst/include/mapbox/recursive_wrapper.hpp
-fa5fd6768ba06471d03723ce026d72a3 *inst/include/mapbox/variant.hpp
+f6b4a76e1b1650ce9b58c532ca3ea0d1 *inst/include/mapbox/variant.hpp
 32c04969716573400e11a64a12949d14 *inst/include/mapbox/variant_io.hpp
 fab19548ba1194d360d69e6025014d57 *man/figures/README-unnamed-chunk-1-1.png
 1a6eadaf95e6f29dd9c916af3c3e6120 *man/poi.Rd
@@ -41,10 +41,10 @@ d79a51789479b00af97d0dc0aa30b4ea *man/polylabelr-package.Rd
 cf0c7894b1770587ecae53a9db54925f *src/Makevars
 099c49b5d9ba0b038bf4af757e11d275 *src/RcppExports.cpp
 70cc991e8882bb55a397fe4557bf6752 *src/poi.cpp
-78a7f421feb7208c58c9197ba4eb5edb *tests/spelling.R
+6a93ce3b2159647c463dd98eb478ee1b *tests/spelling.R
 e120616912a6ffc7614f97c73f624c39 *tests/testthat.R
-3d425f8165fe8b9f7a59641dea655661 *tests/testthat/helper_point_in_polygon.R
+24c2820dd77c9520aebfb2b66f8ad4d9 *tests/testthat/helper_point_in_polygon.R
 db18d3dbcfc23ce538aabeac8beed901 *tests/testthat/test-assertions.R
 b34d46a66c22878965860f18ddf1dc6e *tests/testthat/test-poi-multi.R
-c2f78b74e8d85827e1a68c6ab7968b54 *tests/testthat/test-poi-sf.R
+d64a29de1c6e813cc2156f7f831c0640 *tests/testthat/test-poi-sf.R
 52d58db35d8d55c9288fcf7fc7f7b427 *tests/testthat/test-poi.R

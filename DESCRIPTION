@@ -1,6 +1,6 @@
 Package: polylabelr
 Title: Find the Pole of Inaccessibility (Visual Center) of a Polygon
-Version: 0.3.0
+Version: 1.0.0
 Authors@R: 
     c(person(given = "Johan",
              family = "Larsson",
@@ -27,14 +27,15 @@ BugReports: https://github.com/jolars/polylabelr/issues
 Depends: R (>= 3.3.0)
 LinkingTo: Rcpp
 Imports: Rcpp
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 Suggests: covr, testthat, spelling, sf
 Language: en-US
 NeedsCompilation: yes
-Packaged: 2024-11-19 18:06:02 UTC; jola
-Author: Johan Larsson [aut, cre] (<https://orcid.org/0000-0002-4029-5945>),
+Packaged: 2026-01-18 21:19:57 UTC; jola
+Author: Johan Larsson [aut, cre] (ORCID:
+    <https://orcid.org/0000-0002-4029-5945>),
   Kent Johnson [ctb],
   Mapbox [cph] (polylabel, variant, and geometry libraries)
 Maintainer: Johan Larsson <johanlarsson@outlook.com>
 Repository: CRAN
-Date/Publication: 2024-11-19 18:30:02 UTC
+Date/Publication: 2026-01-19 06:50:02 UTC
